@@ -1,6 +1,8 @@
 h1{
-    color: blue;
+    color: red;
     font-weight: bold;
+    border: 5px dotted salmon;
+    text-align: center;
 }
 
 *{
