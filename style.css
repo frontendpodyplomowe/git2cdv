@@ -1,6 +1,8 @@
 h1{
     color: orange;
     font-weight: bold;
+    border: 5px dotted salmon;
+    text-align: center;
 }
 
 *{
@@ -99,4 +101,24 @@ form input, textarea{
     background-color: pink;
     color: white;
     border-radius: 5px;
+}
+
+
+#field3:hover, #field2:hover, #field1:hover {
+    background-color: peru;
+
+#field2 {
+    padding-left: 7px;
+    background-color: #F3E5F5;
+    border: none;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+}
+
+#field2:focus {
+    background-color: #E1BEE7;
+}
+
+
 }
