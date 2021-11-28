@@ -110,15 +110,15 @@ form input, textarea{
 
 }
 #age:hover {
-    color: white;
+    color: rgb(251, 255, 0);
     animation-name: scale;
     animation-duration: 4s;
     animation-iteration-count: infinite;
 
 }
 @keyframes scale {
-    from {background-color: rgb(17, 103, 179);}
-    to {background-color: rgb(11, 123, 131);}
+    from {background-color: rgba(141, 50, 194, 0.836);}
+    to {background-color: rgb(0, 138, 96);}
 }
 #age_label {
     color: rgb(39, 39, 39)y;
