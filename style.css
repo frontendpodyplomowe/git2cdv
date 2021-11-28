@@ -100,15 +100,7 @@ form input, textarea{
     color: white;
     border-radius: 5px;
 }
-<<<<<<< HEAD
-#checkbox_4{
-    font-size: 20px;
-    color: blue;
-    border: solid 5px;
-    border-radius: 50px;
-    border-top: 5px;
-    padding: 10px;
-    width: auto;
+
 =======
 
 #field2 {
@@ -129,3 +121,11 @@ form input, textarea{
     font-size: 12px;
 >>>>>>> bd265cd4fbf2b1a1af92cde0cd24422d503538f8
 }
+#checkbox_4{
+    font-size: 20px;
+    color: blue;
+    border: solid 5px;
+    border-radius: 50px;
+    border-top: 5px;
+    padding: 10px;
+    width: auto;
