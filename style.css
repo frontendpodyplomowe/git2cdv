@@ -100,6 +100,7 @@ form input, textarea{
     color: white;
     border-radius: 5px;
 }
+<<<<<<< HEAD
 #checkbox_4{
     font-size: 20px;
     color: blue;
@@ -108,4 +109,23 @@ form input, textarea{
     border-top: 5px;
     padding: 10px;
     width: auto;
+=======
+
+#field2 {
+    padding-left: 7px;
+    background-color: #F3E5F5;
+    border: none;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+}
+
+#field2:focus {
+    background-color: #E1BEE7;
+}
+
+.field2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+>>>>>>> bd265cd4fbf2b1a1af92cde0cd24422d503538f8
 }
