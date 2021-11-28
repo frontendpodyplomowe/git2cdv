@@ -100,3 +100,7 @@ form input, textarea{
     color: white;
     border-radius: 5px;
 }
+
+#field3:hover, #field2:hover, #field1:hover {
+    background-color: peru;
+}
