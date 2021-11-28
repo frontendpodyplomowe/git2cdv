@@ -18,7 +18,7 @@
           <input type="text" id="field1" name="field1" />
         </div>
 
-        <div>
+        <div class="field2">
           <label class="description" id="title2" for="field2">
             Podaj hasło:
           </label>
@@ -26,9 +26,18 @@
             type="password"
             id="field2"
             name="field2"
-            title="Minimum jedna cyfra i jeden znak duzy i 1 maly i min 6 znakow"
+            title="Minimum 6 znaków, 1 cyfra, 1 duża i 1 mała litera"
             pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}"
           />
+          <input type="checkbox" onclick="myFunction()">Pokaż hasło
+          <script>function myFunction() {
+            var x = document.getElementById("field2");
+            if (x.type === "password") {
+              x.type = "text";
+            } else {
+              x.type = "password";
+            }
+          }</script>
           <!-- walidacja hasła! -->
         </div>
 
