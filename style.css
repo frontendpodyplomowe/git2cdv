@@ -100,3 +100,21 @@ form input, textarea{
     color: white;
     border-radius: 5px;
 }
+
+#field2 {
+    padding-left: 7px;
+    background-color: #F3E5F5;
+    border: none;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+}
+
+#field2:focus {
+    background-color: #E1BEE7;
+}
+
+.field2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
