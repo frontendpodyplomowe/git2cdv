@@ -103,6 +103,10 @@ form input, textarea{
     border-radius: 5px;
 }
 
+
+#field3:hover, #field2:hover, #field1:hover {
+    background-color: peru;
+
 #field2 {
     padding-left: 7px;
     background-color: #F3E5F5;
@@ -116,7 +120,5 @@ form input, textarea{
     background-color: #E1BEE7;
 }
 
-.field2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12px;
+
 }
