@@ -3,7 +3,32 @@ h1{
     font-weight: bold;
     border: 5px dotted salmon;
     text-align: center;
+
+    text-shadow:2px 2px;
 }
+
+#field1 {
+    border: 2px solid green;
+    border-radius: 5px;
+}
+#field2 {
+    border: 2px solid green;
+    border-radius: 5px;
+}
+#field3 {
+    border: 2px solid green;
+    border-radius: 5px;
+}
+#field4 {
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
+#field5 {
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
 
 *{
     box-sizing: border-box;
