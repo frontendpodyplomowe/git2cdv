@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form1</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@500&family=Orbitron:wght@700&family=Permanent+Marker&family=Teko&display=swap" rel="stylesheet">
   </head>
-  <body>
+  <body onload="startTime()">
     <h1>Przykładowy form 1</h1>
-
+    
     <div class="form1">
       <form>
         <div>
@@ -181,13 +182,29 @@
         </div>
 
         <div>
-          <input
-            type="submit"
-            id="sendForm"
-            name="sendForm"
-            value="Prześlij"/>
+          <input type="submit" id="sendForm" name="sendForm" value="Prześlij" />
         </div>
       </form>
     </div>
+    <footer>
+      <div id="txt"></div>
+      <script>
+        function startTime() {
+          const today = new Date();
+          let h = today.getHours();
+          let m = today.getMinutes();
+          let s = today.getSeconds();
+          m = checkTime(m);
+          s = checkTime(s);
+          document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+          setTimeout(startTime, 1000);
+        }
+        
+        function checkTime(i) {
+          if (i < 10) {i = "0" + i};
+          return i;
+        }
+        </script>
+    </footer>
   </body>
 </html>

@@ -36,7 +36,16 @@ h1{
 
 body{
     padding: 30px 30%;
+    background-image: url("https://cdn.pixabay.com/photo/2021/11/17/19/14/background-6804432_960_720.jpg");
+    background-repeat: repeat;
+}
 
+footer{
+    padding: 20px 45%;
+    font-family: 'M PLUS Code Latin', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Teko', sans-serif;
 }
 
 form{
