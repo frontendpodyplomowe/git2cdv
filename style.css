@@ -161,6 +161,8 @@ form input, textarea{
 #field3:hover, #field2:hover, #field1:hover {
     background-color: peru;
 
+=======
+
 #field2 {
     padding-left: 7px;
     background-color: #F3E5F5;
@@ -174,5 +176,17 @@ form input, textarea{
     background-color: #E1BEE7;
 }
 
+.field2 {
+    font-size: 12px;
+}
+#checkbox_4{
+    font-size: 20px;
+    color: blue;
+    border: solid 5px;
+    border-radius: 50px;
+    border-top: 5px;
+    padding: 10px;
+    width: auto;
+=======
 
 }
