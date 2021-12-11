@@ -1,7 +1,34 @@
 h1{
-    color: blue;
+    color: red;
     font-weight: bold;
+    border: 5px dotted salmon;
+    text-align: center;
+
+    text-shadow:2px 2px;
 }
+
+#field1 {
+    border: 2px solid green;
+    border-radius: 5px;
+}
+#field2 {
+    border: 2px solid green;
+    border-radius: 5px;
+}
+#field3 {
+    border: 2px solid green;
+    border-radius: 5px;
+}
+#field4 {
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
+#field5 {
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
 
 *{
     box-sizing: border-box;
@@ -84,6 +111,8 @@ form input, textarea{
 }
 
 #sendForm{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aqua;
     background-color:red;
     font-weight: bold;
     font-size: 1.5rem;
@@ -94,10 +123,11 @@ form input, textarea{
 }
 
 #sendForm:hover{
-    transition: border 2s ease-in-out, background-color 2s ease-in-out, color 1s ease-in, border-radius 2s ease-in-out;
+    color: aqua;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: border 0.5s ease-in-out, background-color 0.5s ease-in-out, color 0.5s ease-in, border-radius 0.5s ease-in-out;
     border: 3px solid darkorange;
-    background-color: pink;
-    color: white;
+    background-color: rgb(68, 44, 155);
     border-radius: 5px;
 }
 #age {
@@ -122,4 +152,27 @@ form input, textarea{
 }
 #age_label {
     color: rgb(39, 39, 39)y;
+
+    font-size: 1.3rem;
+   
+}
+
+
+#field3:hover, #field2:hover, #field1:hover {
+    background-color: peru;
+
+#field2 {
+    padding-left: 7px;
+    background-color: #F3E5F5;
+    border: none;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+}
+
+#field2:focus {
+    background-color: #E1BEE7;
+}
+
+
 }
