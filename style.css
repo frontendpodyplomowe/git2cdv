@@ -111,6 +111,8 @@ form input, textarea{
 }
 
 #sendForm{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aqua;
     background-color:red;
     font-weight: bold;
     font-size: 1.5rem;
@@ -121,11 +123,14 @@ form input, textarea{
 }
 
 #sendForm:hover{
-    transition: border 2s ease-in-out, background-color 2s ease-in-out, color 1s ease-in, border-radius 2s ease-in-out;
+    color: aqua;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: border 0.5s ease-in-out, background-color 0.5s ease-in-out, color 0.5s ease-in, border-radius 0.5s ease-in-out;
     border: 3px solid darkorange;
-    background-color: pink;
-    color: white;
+    background-color: rgb(68, 44, 155);
     border-radius: 5px;
+    font-size: 1.3rem;
+   
 }
 
 
