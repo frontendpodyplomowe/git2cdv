@@ -1,4 +1,4 @@
-h1{
+h1 {
     color: red;
     font-weight: bold;
     border: 5px dotted salmon;
@@ -31,21 +31,22 @@ h1{
 
 
 *{
+
     box-sizing: border-box;
 }
 
-body{
+body {
     padding: 30px 30%;
-
 }
 
-form{
+form {
     font-size: 1rem;
     color: darkgray;
     background-color: lightyellow;
-} 
+}
 
-form label, form legend{
+form label,
+form legend {
     width: 40%;
     float: left;
 }
@@ -54,81 +55,74 @@ form input {
     width: 60%;
 }
 
-form div{
+form div {
     overflow: hidden;
     /* clear: both; */
     padding: 5px;
-
 }
 
-form > div > fieldset{
+form>div>fieldset {
     border: 0;
     /* padding: 10px; */
     padding: 0;
     margin: 0;
 }
 
-form > div > fieldset > div > div > label {
+form>div>fieldset>div>div>label {
     font-size: 0.9rem;
     color: black;
     padding-left: 0.6rem;
 }
 
-form textarea{
+form textarea {
     width: 100%;
 }
 
+
 /* form/div[6]/div */
 
-form > div > div {
-    padding-left:0;
+form>div>div {
+    padding-left: 0;
 }
 
-
-form > div > fieldset > div > div > input{
+form>div>fieldset>div>div>input {
     width: auto;
     float: left;
     /* margin-left: 0; */
 }
 
+
 /* xpath full path */
+
+
 /* /html/body/div/form/div[7]/fieldset/div/div[1] */
-form > div > fieldset > div > div {
+
+form>div>fieldset>div>div {
     padding: 0;
 }
 
-.cities > div > input {
+.cities>div>input {
     width: auto;
     float: left;
 }
 
-form input:focus{
+form input:focus {
     border: 3px solid orange;
 }
 
-form input, textarea{
+form input,
+textarea {
     background-color: yellow;
 }
 
 #sendForm{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: aqua;
     background-color:red;
     font-weight: bold;
-    font-size: 1.5rem;
-    width: 100px;
-    height: 40px;
+    font-size: 1rem;
+    color: #1b1616;
     display: block;
     margin: 0 auto;
-}
-
-#sendForm:hover{
-    color: aqua;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    transition: border 0.5s ease-in-out, background-color 0.5s ease-in-out, color 0.5s ease-in, border-radius 0.5s ease-in-out;
-    border: 3px solid darkorange;
-    background-color: rgb(68, 44, 155);
-    border-radius: 5px;
 }
 
 
@@ -171,7 +165,34 @@ form input, textarea{
 
 
 #field3:hover, #field2:hover, #field1:hover {
+    background-size: 300% 100%;
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    padding: 9px;
+    border-radius: 5px;
+    margin: 20px auto;
+    text-align: center;
+    moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+#sendForm:hover {
+    background-position: 97% 0;
+    background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516);
+    box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
+    moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    color: #1b1616;
+}
+
+#field3:hover,
+#field2:hover,
+#field1:hover {
     background-color: peru;
+}
 
 #field2 {
     padding-left: 7px;
@@ -197,5 +218,4 @@ form input, textarea{
     border-top: 5px;
     padding: 10px;
     width: auto;
-=======
 }
